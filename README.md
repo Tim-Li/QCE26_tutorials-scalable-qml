@@ -2,6 +2,8 @@
 
 > IEEE Quantum Week 2026 (QCE26) tutorial `TUT::QML::QSIMU::519`. This `qce26` branch holds the QCE26 edition of the materials.
 
+https://sites.google.com/niar.org.tw/qce26-tutorial-519
+
 ## Abstract
 
 Quantum machine learning (QML) is progressing toward larger and more complex models, characterized by increasing qubit counts, deeper circuits, and tighter integration with classical machine learning workflows. In this context, efficient quantum circuit simulation and rigorous validation are becoming central to the development and assessment of large-scale QML models — the bottleneck is rarely the algorithm itself, but whether a model can be simulated fast enough to train on and validated rigorously enough to trust. This tutorial examines how GPU-optimized simulation enables scalable QML workflows, covering hybrid model architectures, quantum-inspired methods, and the layered GPU software stack behind them: [**CUDA-Q**](https://developer.nvidia.com/cuda-q) for expressing quantum kernels, PyTorch-compatible integration, [**cuQuantum/cuTensorNet**](https://developer.nvidia.com/cuquantum-sdk) for GPU-accelerated tensor-network execution, and [**cuTensor**](https://developer.nvidia.com/cutensor) for advanced contraction optimization.
